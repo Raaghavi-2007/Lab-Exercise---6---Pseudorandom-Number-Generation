@@ -4,7 +4,6 @@
 Implementation of Pseudorandom Number Generation Using Standard library.
 
 # Procedure:
-
 1. Import the secrets module: This module provides cryptographically secure random functions.
 2. Generate a secure random integer: Use secrets.randbelow(n) to get a random integer between 0 and n-1.
 3. Generate a secure random number with a specific bit length: Use secrets.randbits(bit_length) to generate a random number with a given number of bits.
@@ -29,9 +28,7 @@ for num in numbers:
 ```
 
 # Output:
-
 <img width="1920" height="1080" alt="Screenshot (200)" src="https://github.com/user-attachments/assets/44d9970a-5dbb-4d38-8a10-2ba0c4ea6bf8" />
-
 <img width="1920" height="1080" alt="Screenshot (199)" src="https://github.com/user-attachments/assets/468a7bf2-222c-4976-adbf-f7aca3831e9e" />
 
 # Result:
